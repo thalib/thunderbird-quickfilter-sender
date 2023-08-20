@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"author": "Devnodes.in",
+	"name": "Quick Filter Context Menu",
+	"description": "Quick Filter Context Menu by Devnodes.in",
+	"version": "1.0",
+	"permissions": [
+		"messagesRead",
+		"activeTab",
+		"tabs",
+		"tabHide",
+		"menus"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	}
+}
