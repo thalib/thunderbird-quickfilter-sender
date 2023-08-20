@@ -1,5 +1,12 @@
 {
 	"manifest_version": 2,
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "filtersender@devnodes.in",
+			"strict_min_version": "91.0",
+			"strict_max_version": "115.*"
+		}
+	},
 	"author": "Devnodes.in",
 	"name": "Quick Filter Context Menu",
 	"description": "Quick Filter Context Menu by Devnodes.in",
